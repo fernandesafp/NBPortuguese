@@ -1,2 +1,2 @@
 # PortuguesSemGenero
-Removes Gender in the Portuguese Language
+Removes gender in the portuguese Language
