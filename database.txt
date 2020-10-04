@@ -1,5 +1,9 @@
-rapaz	jovem
-rapariga	jovem
-rei	realeza
-rainha	realeza
-herói	heroine
+rapaz;jovem
+rapariga;jovem
+rei;reinhe
+rainha;reinhe
+herói;heroine
+pai;figura parental
+homem;pessoa
+mulher;pessoa
+bom;boe
