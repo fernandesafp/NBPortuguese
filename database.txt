@@ -1,0 +1,5 @@
+rapaz	jovem
+rapariga	jovem
+rei	realeza
+rainha	realeza
+herói	heroine
