@@ -1,2 +1,2 @@
-# PortuguesSemGenero
-Removes gender in the portuguese Language
+# Neutral Portuguese
+Changes people's pronouns to gender neutral elu/delu.
