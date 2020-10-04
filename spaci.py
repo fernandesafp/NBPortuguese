@@ -51,4 +51,5 @@ def run_model(database, nlp, sentence):
         end_char.pop(next_word_index)
         words.pop(next_word_index)
     nb_text = organize_text(tmp).replace('\n','<br/>')
+    nb_text = nb_text.replace('ume pessoa','uma pessoa').replace('ume Pessoa','uma Pessoa').replace('minhe pessoa','minhe parceire').replace('minhe Pessoa','minhe Parceire').replace('minhe figura parental','minha figura parental').replace('minhe Figura parental','minha Figura parental')
     return nb_text

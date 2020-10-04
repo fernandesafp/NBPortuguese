@@ -6,7 +6,7 @@ def load_database():
     with open(database_file) as db:
         lines = db.readlines()
     for line in lines:
-        words = line.replace('\n','').split('\t')
+        words = line.replace('\n','').split(';')
         pt = words[0] #gendered portuguese
         nb = words[1] #nb portuguese
         database[pt] = nb
