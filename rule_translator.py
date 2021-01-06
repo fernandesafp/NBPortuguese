@@ -137,5 +137,5 @@ def nbify(database, word):
     elif capitalize:
         nb_word = nb_word[0].upper() + nb_word[1:]
 
-    final_word = nb_word + last_char + '\n'*ens
+    final_word = nb_word + last_char + '\n'*linebreaks
     return final_word
