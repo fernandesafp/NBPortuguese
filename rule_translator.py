@@ -5,10 +5,10 @@ def get_nb_word(database, gendered_word):
 
 def nbify(database, word):
     #Remove \n's
-    ens = 0
+    linebreaks = 0
     if word.endswith('\n'):
         word = word[:-2]
-        ens += 1
+        linebreaks += 1
 
     #Clean word
     last_char = ''
