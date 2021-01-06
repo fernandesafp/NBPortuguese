@@ -5,7 +5,7 @@ Trained a custom spacy model with Prodigy tool to identify gendered words direct
 
 Hosted in my [PythonAnywhere](fernandesafp.pythonanywhere.com) page with FlaskAPI.
 
-# Examples
+## Examples
 A simple sentence input:
 
 ![Simple sentence - He is handsome.](/screenshots/example.png?raw=true)

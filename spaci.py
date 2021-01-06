@@ -1,9 +1,8 @@
-import spacy
 from rule_translator import nbify
 
 def organize_text(sentence):
     sentence = sentence.replace('  ', ' ').replace('\n ','\n') #removes double spaces from deleting 'o(s)' or 'a(s)'
-    for i in range(len(sentence)):
+    for i in enumerate(sentence):
         if sentence[i] != ' ':
             sentence = sentence[i:]
             break #in case sentence contains empty spaces
@@ -11,11 +10,14 @@ def organize_text(sentence):
     stoppers = ['. ', '! ', '? ']
     for stopper in stoppers:
         lines = sentence.split(stopper)
+
         for index, line in enumerate(lines):
             try:
                 lines[index] = line[0].upper() + line[1:]
-            except:
+            except Exception as ex:
                 lines[index] = line[0] + line[1:]
+                print('Could not capitalize first letter. ' + ex)
+
         sentence = stopper.join(lines)
 
     return sentence
